@@ -90,6 +90,7 @@ const Todo: React.FC = () => {
   useEffect(() => {
     const checkMobile = () => {
       setIsMobile(window.innerWidth <= 768);
+      console.log(isMobile);
     };
     
     checkMobile();
